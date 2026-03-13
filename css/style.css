@@ -1,0 +1,95 @@
+body{
+    background: radial-gradient(circle at top,#1e2a78,#3a0f5c,#12002c);
+    color:white;
+    font-family: 'Segoe UI',sans-serif;
+    min-height:100vh;
+}
+
+.page-wrapper{
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.progress-box{
+    background: rgba(255, 255, 255, 0.4);
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.game-card{
+    border-radius: 25px;
+    padding: 40px;
+    background: radial-gradient(circle at top,#1e2a78,#3a0f5c,#12002c);
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.avatar-title{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.title{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.avatar-card{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.avatar-card img{
+    width:100%;
+    height:170px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+.avatar-card p{
+    margin-top:8px;
+    font-weight:600;
+    color: white;
+    font-size: 20px;
+}
+
+.avatar-card:hover{
+    transform:scale(1.05);
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.game-input{
+    height:50px;
+    border-radius:12px;
+    border:2px solid #e5c8ff;
+}
+
+.join-btn{
+    width:100%;
+    height:55px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(90deg,#9f5de2,#ff7eb3);
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.join-btn:hover{
+    transform: scale(1.03);
+}
